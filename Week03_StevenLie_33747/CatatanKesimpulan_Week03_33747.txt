@@ -1,0 +1,11 @@
+/*Steven Lie - 00000033747 - EL */
+
+setelah melakukan pengujian terhadap app dengan scenario beberapa penambahan dan pemilihan beberapa item
+pada daftar kata di recyclerView, maka dapat saya beri catatan & kesimpulan, yaitu :
+-aplikasi sudah dapat menambahkan baris baru : setelah melakukan penambahan item(menggunakan fab button), kata dengan nomor selanjutnya berhasil ditambahkan di bawah baris kata paling akhir
+	dengan tambahan string "telah ditambahkan" --> contoh : kata21 telah ditambahkan
+-RecyclerView juga telah berfungsi dengan baik, karena dapat melakukan reuse terhadap view2 yang dibutuhkan saja untuk ditampilkan, dan ketika di scroll view yang lama sudah tidak terlihat dan ditambahkan baris yang baru dibawahnya
+- ketika kata 1-20 ditekan maka akan di append string pernah di klik & muncul toast kata 1-20 telah dipilih
+- ketika kata 1-20 ditekan lagi makan akan di append string pernah diklik , sehingga toast yang muncul adalah kata 1-20 telah pernah diklik telah dipilih, dst jika di klik lagi
+- untuk kata yang ditambahkan (diatas 20) : ketika di klik maka akan muncul toast kata 21 telah ditambahkan dipilih & string pernah di klik di append ke baris tersebut
+- jika baris 21..dst di klik lagi akan muncul toast kata 21 telah ditambahkan pernah diklik dipilih, dan akan semakin panjang bila di klik terus
