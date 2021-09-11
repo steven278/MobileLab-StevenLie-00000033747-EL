@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.ac.umn.Week04_33747">
+    package="id.ac.umn.Week04A_33747">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Week04_33747">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="id.ac.umn.Week04A_33747.AcivityDua"
+            android:exported="true"
+            android:label="Activity Kedua"
+            android:parentActivityName="id.ac.umn.Week04A_33747.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="id.ac.umn.Week04A_33747.MainActivity" />
+        </activity>
+        <activity android:name="id.ac.umn.Week04A_33747.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
