@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Week04B_33747</string>
+    <string name="halaman1">Halaman 1</string>
+    <string name="halaman2">Halaman 2</string>
+    <string name="nama">Nama</string>
+    <string name="tulisan">Tulisan</string>
+    <string name="gantiTulisan">Ganti Tulisan</string>
+    <string name="initialTextView">Initial Textview</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
