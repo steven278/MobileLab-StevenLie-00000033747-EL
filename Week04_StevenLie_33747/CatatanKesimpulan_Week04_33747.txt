@@ -13,3 +13,13 @@ setelah melakukan pengujian terhadap app saya, didapatkan catatan dan kesimpulan
 -Selanjutnya pada menu utama(main activity) ketika saya mengisi edittext terlebih dahulu dengan halaman web yang saya ingini (misalnya https://google.com) maka
 	ketika saya klik tombol browse, dan memilih salah satu browser yang available, browser tersebut akan mengarahkan ke halaman web
 	yang sesuai dengan apa yang saya isi pada edittext
+-kesimpulannya intent eksplisit dapat digunakan untuk mengirim data di dalam aplikasi itu sendiri sedangkan intent implisit dapat digunakan
+	untuk mengirim data ke aplikasi lain
+
+Tutorial intent (modul 4B)
+setelah melakukan pengujian terhadap app saya, didapatkan catatan dan kesimpulan sebagai berikut:
+- setelah berpindah dari mainactivity menuju secondactivity mengggunakan tombol halaman1, maka terlihat
+	halaman secondactivity terdiri dari 2 fragment yang menjadi 1 (gabungan 2 fragmen)
+-setelah berpindah dari mainactivity menuju thirdactivity menggunakan tombol halaman2, maka terllihat
+	halaman thirdactivity terdiri dari 2 fragment yang menjadi 1 (gabungan 2 fragment)
+-dapat disimpulkan 2 fragment tersebut dapat disatukan dengan cara manual maupun menggunakan programmatic
