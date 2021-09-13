@@ -1,0 +1,8 @@
+/*Steven Lie - 00000033747 - EL */
+
+setelah melakukan pengujian terhadap app saya, didapatkan catatan dan kesimpulan sebagai berikut:
+- aplikasi dapat digunakan untuk menggambar dengan bebas seperti aplikasi paint
+- setiap bentuk (rectangle, oval, garis, path) masing2 sudah dapat menampilkan gambar sesuai dengan tipe bentuknya
+- dapat mensetting warna dengan cara menggeser-geser nilai rgb pada seekButton
+- imagebutton dapat menampilkan warna (kombinasi rgb) dengan benar sesuai dengan nilai aslinya
+- ketika klik tombol x di kiri atas, maka semua gambar dalam bentuk dan warna apapun akan hilang seluruhnya
