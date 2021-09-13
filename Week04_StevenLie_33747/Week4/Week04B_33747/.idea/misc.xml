@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/MobileLab-StevenLie-00000033747-EL/Week04_StevenLie_33747/Week4/Week04B_33747/app/src/main/res/layout/activity_first.xml" value="0.12407407407407407" />
+        <entry key="..\:/AndroidStudioProjects/MobileLab-StevenLie-00000033747-EL/Week04_StevenLie_33747/Week4/Week04B_33747/app/src/main/res/layout/activity_main.xml" value="0.3134057971014493" />
+        <entry key="..\:/AndroidStudioProjects/MobileLab-StevenLie-00000033747-EL/Week04_StevenLie_33747/Week4/Week04B_33747/app/src/main/res/layout/activity_second.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MobileLab-StevenLie-00000033747-EL/Week04_StevenLie_33747/Week4/Week04B_33747/app/src/main/res/layout/activity_third.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/MobileLab-StevenLie-00000033747-EL/Week04_StevenLie_33747/Week4/Week04B_33747/app/src/main/res/layout/fragment_first.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/MobileLab-StevenLie-00000033747-EL/Week04_StevenLie_33747/Week4/Week04B_33747/app/src/main/res/layout/fragment_second.xml" value="0.1778115501519757" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
