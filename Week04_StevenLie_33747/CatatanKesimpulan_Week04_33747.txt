@@ -1,0 +1,15 @@
+/*Steven Lie - 00000033747 - EL */
+
+Tutorial intent (modul 4A)
+setelah melakukan pengujian terhadap app saya, didapatkan catatan dan kesimpulan sebagai berikut:
+- ketika berada di menu utama (main activity), ketika saya mengisi edittext pertama (teks yang akan dikirim)
+	lalu mengklik tombol kirim, maka yang terjadi adalah data teks yang saya isi teresebut di passing melalui
+	explicit intent menuju activitydua dan ditampilkan oleh textview pada activitydua
+- kemudian ketika mengisi edittext pada activitydua, dan menklik tombol balas, maka data dari edittext tersebut
+	di passing melalui explicit intent menuju MainActivity , kemudian data tersebut ditampilkan di textview yang terdapat pada mainActivity
+- Selanjutnya pada menu utama (main activity) ketika tombol browse langsung ditekan (tanpa mengisi edittext halaman website) maka aplikasi akan
+	menminta saya untuk memilih browser yang akan dipakai untuk menjelajahi web. dan ketika saya pilih salah satunya, maka browser akan langsung
+	mengarahkan saya ke http://umn.ac.id , dikarenakan urltext sudah diisi pada MainActivity.java apabila saya tidak mengisi edittextnya
+-Selanjutnya pada menu utama(main activity) ketika saya mengisi edittext terlebih dahulu dengan halaman web yang saya ingini (misalnya https://google.com) maka
+	ketika saya klik tombol browse, dan memilih salah satu browser yang available, browser tersebut akan mengarahkan ke halaman web
+	yang sesuai dengan apa yang saya isi pada edittext
