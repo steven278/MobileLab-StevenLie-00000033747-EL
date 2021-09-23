@@ -1,0 +1,19 @@
+/*Steven Lie - 00000033747 - EL */
+
+setelah melakukan pengujian terhadapa app dengan mengklik object-object yang disampaikan pada tutorial, maka dapat
+dituliskan catatan dan kesimpulan sebagai berikut:
+
+*aplikasi 6A
+-ketika layar di klik maka muncul animasi lingkaran yang bewarna hijau yang semakin membesar hingga menutupi seluruh layar,
+lalu lingkaran tersebut berubah warna menjadi kebiruan, setelah itu lingkaran akan mengecil dan warnanya kembali menjadi hijau sampai lingkaran itu menghilang,
+kemudian lingkaran tersebut muncul membesar lagi sama seperti awalnya, dan setelah ia mengecil dan menghilang maka aktivitas yang dilakukan oleh lingkaran tersebut berhenti
+-apabila saat lingkaran membesar / mengecil layar di klik lagi, maka aktivitas lingkaran tersebut dimulai lagi dari awal (menghentikan aktivitas lingkaran yang lama yg sedang running)
+*aplikasi 6B
+-ketika gambar kuda di klik, maka gambar kuda tersebut terlihat seolah olah sedang berlari, padahal yang terjadi
+adalah pola sekumpulan gambar kuda dengan berbagai posisi kaki yang dijalankan bergantian secara berulang-ulang sehingga terlihat
+kuda tersebut berlari tanpa henti
+*aplikasi 6C
+-ketika tombol halo spring ditekan, maka tombol tersebut akan langsung bergerak ke tengah layar hp dan kembali ke posisi semula dengan sangat cepat
+-ketika tombol halo fling ditekan, maka tombol akan berputar secara vertikal pada poros tombol tersebut dengan efek-efek shadownya
+
+-kesimpulan : ketiga aplikasi telah berjalan dengan baik sesuai dengan fungsi dan petunjuk modul
