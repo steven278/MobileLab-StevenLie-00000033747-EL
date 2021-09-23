@@ -1,0 +1,14 @@
+/*Steven Lie - 00000033747 - EL */
+
+Setelah melakukan pengujian terhadap app dengan menklik tombol foto dan video, maka dapat dituliskan
+catatan dan kesimpulan sebagai berikut :
+- ketika tombol foto di klik, maka app akan langsung memanggil Intent implisit yang memanggil aplikasi kamera
+	bawaan milik hp android. kemudian ketika saya mengambil foto, dan meklik tombol centang, maka
+	aplikasi kamera akan tertutup dan kembali ke aplikasi kamera & video secara otomatis. Kemudian hasil capture
+	foto ditampilkan secara otomatis diatas tombol foto
+- ketika tombol video di klik, maka app akan langsung memanggil Intent implisit yang memanggil aplikasi kamera
+	bawaan milik hp android, kemudian ketika saya merekam video selama beberapa deitk, lalu stop video dan menekan
+	tombol centang, maka aplikasi kamera akan tertutup dan kembali ke aplikasi kamera & video secara otomatis.
+	kemudian hasil rekaman video di tampilkan dan di play secara otomatis diatas tombol video
+- kesimpulannya aplikasi ini mampu menggunakan aplikasi lain yaitu kamera untuk mengambil foto dan video, lalu hasilnya
+	ditampilkan kembali ke aplikasi ini. maka aplikasi ini sudah berjalan dengan baik dan sesuai 
