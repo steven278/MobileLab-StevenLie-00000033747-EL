@@ -20,15 +20,12 @@ public class MahasiswaListAdapter extends
     }
     @NonNull
     @Override
-    public MahasiswaViewHolder onCreateViewHolder(@NonNull
-                                                          ViewGroup parent, int viewType) {
-        View itemView = mInflater.inflate(R.layout.mhs_item_layout,
-                parent,false);
+    public MahasiswaViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View itemView = mInflater.inflate(R.layout.mhs_item_layout, parent,false);
         return new MahasiswaViewHolder(itemView);
     }
     @Override
-    public void onBindViewHolder(@NonNull MahasiswaViewHolder holder,
-                                 int position) {
+    public void onBindViewHolder(@NonNull MahasiswaViewHolder holder, int position) {
         if(daftarMahasiswa != null){
             Mahasiswa mhs = daftarMahasiswa.get(position);
             holder.tvNim.setText(mhs.getNim());

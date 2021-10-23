@@ -17,11 +17,7 @@ public abstract class MahasiswaRoomDatabase extends RoomDatabase {
         if (INSTANCE == null) {
             synchronized (MahasiswaRoomDatabase.class) {
                 if (INSTANCE == null) {
-                    INSTANCE = Room.databaseBuilder(
-                            context.getApplicationContext(),
-                            MahasiswaRoomDatabase.class, "dbMahasiswa")
-                            .addCallback(sRoomDatabaseCallback)
-                            .build();
+                    INSTANCE = Room.databaseBuilder(context.getApplicationContext(), MahasiswaRoomDatabase.class, "dbMahasiswa").addCallback(sRoomDatabaseCallback).build();
                 }
             }
         }

@@ -163,8 +163,7 @@ public class MainActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent addIntent = new Intent(MainActivity.this,
-                        DetilActivity.class);
+                Intent addIntent = new Intent(MainActivity.this, DetilActivity.class);
                 startActivityForResult(addIntent,REQUEST_TAMBAH);
             }
         });
@@ -173,8 +172,7 @@ public class MainActivity extends AppCompatActivity {
         rv.setAdapter(adapter);
         rv.setLayoutManager(new LinearLayoutManager(this));
         mhsVM = ViewModelProviders.of(this).get(MahasiswaViewModel.class);
-        mhsVM.getDaftarMahasiswa().observe(this,
-                new Observer<List<Mahasiswa>>() {
+        mhsVM.getDaftarMahasiswa().observe(this, new Observer<List<Mahasiswa>>() {
                     @Override
                     public void onChanged(List<Mahasiswa> mhss) {
                         adapter.setDaftarMahasiswa(mhss);
@@ -184,24 +182,19 @@ public class MainActivity extends AppCompatActivity {
                 new ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT |
                         ItemTouchHelper.RIGHT){
                     @Override
-                    public boolean onMove(@NonNull RecyclerView recyclerView,
-                                          @NonNull RecyclerView.ViewHolder viewHolder,
-                                          @NonNull RecyclerView.ViewHolder target) {
+                    public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
                         return false;
                     }
                     @Override
-                    public void onSwiped(@NonNull RecyclerView.ViewHolder
-                                                 viewHolder, int direction) {
-                        int posisi = viewHolder.getAdapterPosition();Mahasiswa mhs = adapter.getMahasiswaAtPosition(posisi);
+                    public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+                        int posisi = viewHolder.getAdapterPosition();
+                        Mahasiswa mhs = adapter.getMahasiswaAtPosition(posisi);
                         if(direction == ItemTouchHelper.LEFT){
-                            Toast.makeText(MainActivity.this,
-                                    "Mahasiswa dengan NIM = "+mhs.getNim()+
-                                            " dihapus",Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this, "Mahasiswa dengan NIM = "+mhs.getNim()+ " dihapus",Toast.LENGTH_LONG).show();
                             mhsVM.delete(mhs);
                         }
                         else if (direction == ItemTouchHelper.RIGHT) {
-                            Intent editIntet = new Intent (MainActivity.this,
-                                    DetilActivity.class);
+                            Intent editIntet = new Intent (MainActivity.this, DetilActivity.class);
                             editIntet.putExtra("MAHASISWA", mhs);
                             startActivityForResult(editIntet,REQUEST_EDIT);
                         }
