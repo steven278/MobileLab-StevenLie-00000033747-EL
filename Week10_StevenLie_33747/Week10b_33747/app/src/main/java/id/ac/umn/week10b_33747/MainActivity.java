@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                                     mActivity.get().mTextView.setText("progress = " + progress + " persen");
                                 }else{
                                     mActivity.get().mProgressBar.setProgress(100);
-                                    mActivity.get().mTextView.setText("Selesai selama " + mCounter * 200 + "milidetik...");
+                                    mActivity.get().mTextView.setText("Selesai selama " + mCounter * 200 + " milidetik...");
                                 }
                             }
                         });
